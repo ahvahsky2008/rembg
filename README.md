@@ -70,6 +70,9 @@ Start the server
     rembg-server
 ```
 
+Не забудь установить
+https://download.lfd.uci.edu/pythonlibs/z4tqcw5k/pyopencl-2020.3.1+cl12-cp38-cp38-win_amd64.whl
+
 Open your browser to
 ```
     http://localhost:5000?url=http://image.png
@@ -136,6 +139,8 @@ Sometimes it is possible to achieve better results by turning on alpha matting. 
 - https://arxiv.org/pdf/2005.09007.pdf
 - https://github.com/NathanUA/U-2-Net
 - https://github.com/pymatting/pymatting
+
+
 
 ### License
 
