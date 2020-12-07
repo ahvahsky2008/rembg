@@ -81,7 +81,7 @@ def remove(
     alpha_matting_erode_structure_size=10,
 ):
     model = get_model(model_name)
-    img = Image.open(io.BytesIO(data)).convert("RGB")
+    img = Image.open(data).convert("RGB")
     mask = detect.predict(model, np.array(img)).convert("L")
 
     if alpha_matting:
