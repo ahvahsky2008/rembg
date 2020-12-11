@@ -9,6 +9,6 @@ requests==2.24.0
 scipy==1.5.4
 pymatting==1.1.1
 filetype==1.0.7
-torch==1.7.0+cu110
-torchvision==0.8.1+cu110
-torchaudio==0.7.0 
+#torch==1.7.0+cu110
+#torchvision==0.8.1+cu110
+#torchaudio==0.7.0 
